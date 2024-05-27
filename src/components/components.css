@@ -1,0 +1,166 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Global styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the entire app, including the dark mode toggle button */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .dark-mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .quiz-container {
+    width: 110%; /* Adjust the width of the quiz container */
+    max-width: 1000px; /* Set a maximum width for the quiz container */
+    padding: 30px;
+    margin-top: 20px; /* Add margin to separate the quiz container from the dark mode toggle */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white; /* Ensure the quiz container has a consistent background color */
+    color: black; /* Ensure the quiz container has consistent text color */
+    box-shadow: 0 0 10px rgba(22, 14, 14, 0.1);
+  }
+  
+  .quiz-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-number {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .question-number-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .quiz-content {
+    margin-top: 20px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #b3c6ff; /* Blue background color for options container */
+    padding: 10px; /* Add padding to separate options from the container edges */
+    color: black; /* Ensure options text color remains black */
+  }
+  
+  .option {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #0e7dc2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #31c2df;
+  }
+  
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .result-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white; /* Ensure the result container has a consistent background color */
+    color: black; /* Ensure the result container has consistent text color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-phrase {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .result-score {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-option {
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #1db9ce;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quiz-option:hover {
+    background-color: #1226be;
+  }
+  /* Add highlight styles */
+  .highlighted {
+    color: red;
+  }
+  
+  /* Additional styles for the highlight buttons */
+  .highlight-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .highlight-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d55050;
+    transition: background-color 0.3s ease;
+  }
+  
+  .highlight-buttons button:hover {
+    background-color: #e0e0e0;
+  }
+  
