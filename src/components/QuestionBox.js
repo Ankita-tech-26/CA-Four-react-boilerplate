@@ -60,6 +60,6 @@ QuizComponent.propTypes = {
   pageNavigation: PropTypes.func.isRequired,
 };
 
-export default QuizComponent;
+export default QuestionBox;
 
 

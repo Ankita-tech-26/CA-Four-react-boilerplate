@@ -25,4 +25,4 @@ ResultComponent.propTypes = {
   percentage: PropTypes.number.isRequired,
 };
 
-export default ResultComponent;
+export default Result;
